@@ -1,0 +1,19 @@
+intents:
+  - greet
+  - thank
+  - bye
+  - deny
+  - affirm
+
+templates:
+  utter_greet:
+    - "Hey, how can I help you?"
+  utter_thank:
+    - "You're welcome!"
+  utter_bye:
+    - "Goodbye"
+
+actions:
+  - utter_greet
+  - utter_thank
+  - utter_bye
