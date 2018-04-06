@@ -1,10 +1,7 @@
 language: "en"
 
 pipeline:
-  - name: "nlp_spacy"
-    model: "en"
-  - name: "tokenizer_spacy"
-  - name: "intent_featurizer_spacy"
-  - name: "intent_classifier_sklearn"
+  - name: "intent_featurizer_count_vectors"
+  - name: "intent_classifier_tensorflow_embedding"
   - name: "ner_duckling"
     dimensions: ["email"]
