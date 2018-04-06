@@ -4,7 +4,6 @@ intents:
   - bye
   - deny
   - affirm
-  - change_email
 
 entities:
   # replace with your entities
