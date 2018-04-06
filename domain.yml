@@ -5,13 +5,16 @@ intents:
   - deny
   - affirm
   - change_email
+
 entities:
+  # replace with your entities
   - example_entity
 
 slots:
+  # replace with your slots
   example_slot:
     type: unfeaturized
-    
+
 templates:
   utter_greet:
     - "Hey, how can I help you?"
