@@ -4,7 +4,14 @@ intents:
   - bye
   - deny
   - affirm
+  - change_email
+entities:
+  - example_entity
 
+slots:
+  example_slot:
+    type: unfeaturized
+    
 templates:
   utter_greet:
     - "Hey, how can I help you?"
