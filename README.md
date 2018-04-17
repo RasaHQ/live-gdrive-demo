@@ -1,6 +1,6 @@
 # starter-pack
 
-This is a starter pack made to quickly get started with the Rasa Stack! Clone this repo and start building your bot.
+This is a starter pack made to quickly get started with the [Rasa Stack](http://rasa.com/products/rasa-stack/)! Clone this repo and start building your bot.
 
 ## Setup
 
