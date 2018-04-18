@@ -18,10 +18,10 @@ class GDriveService(object):
     """Service to write to a spread sheet in google drive."""
 
     # Name of the spreadsheet
-    ADDRESSES_FILE_NAME = "demo emails"
+    SPREADSHEET_NAME = "demo emails"
 
     # Sheet where the new address change entries should be stored in
-    ADDRESSES_SHEET_NAME = "Sheet1"
+    SHEET_NAME = "Sheet1"
 
     def __init__(self, gdrive_credentials_json=os.environ.get("GDRIVE_CREDENTIALS")):
         scopes = ['https://spreadsheets.google.com/feeds',
@@ -44,13 +44,13 @@ class GDriveService(object):
 
     def store_email(self, name, address):
         """Adds a single new row to the sheet containing the users name and
-        address."""
+        email."""
         try:
             row_values = [name, address]
-            self.append_row(self.ADDRESSES_FILE_NAME, row_values,
-                            self.ADDRESSES_SHEET_NAME)
+            self.append_row(self.SPREADSHEET_NAME, row_values,
+                            self.SHEET_NAME)
         except Exception as e:
-            logger.error("Failed to write user address to gdocs. Name %s: "
+            logger.error("Failed to write user email to gdocs. Name %s: "
                          "Address: %s Exception: %s", name, address, e.message,
                          exc_info=True)
 
