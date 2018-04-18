@@ -1,6 +1,10 @@
-# starter-pack
+# Starter Pack for Rasa Stack
 
-This is a starter pack made to quickly get started with the [Rasa Stack](http://rasa.com/products/rasa-stack/)! Clone this repo and start building your bot.
+This starter pack helps you build a bot faster with [Rasa Stack](http://rasa.com/products/rasa-stack/). Apart from a basic file and folder structure, it gives you some initial training data. Clone this repo and start building your bot.
+
+For more information on the Rasa Stack, please visit the docs here:
+- [Rasa Core](https://core.rasa.com/)
+- [Rasa NLU](https://nlu.rasa.com/)
 
 ## Setup
 
