@@ -1,2 +1,3 @@
 -e git+https://github.com/RasaHQ/rasa_core.git@93101815832cc00dc81d71f6e9d5eccd7f96ca17#egg=rasa_core
 rasa_nlu==0.12.3
+rasa_nlu[tensorflow]
